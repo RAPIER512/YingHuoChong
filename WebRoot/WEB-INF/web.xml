@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>clientEquipMessage</servlet-name>
+    <servlet-class>servlet.clientEquipMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>printCorrect</servlet-name>
+    <servlet-class>servlet.printCorrect</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>submitCorrect</servlet-name>
+    <servlet-class>servlet.submitCorrect</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>regist_bx</servlet-name>
+    <servlet-class>servlet.regist_bx</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>changeCEM</servlet-name>
+    <servlet-class>servlet.changeCEM</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lianjie</servlet-name>
+    <servlet-class>servlet.lianjie</servlet-class>
+  </servlet>
+  
+  
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DataSourceTest</servlet-name>
+    <servlet-class>dbpool.DataSourceTest</servlet-class>
+</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DataTest</servlet-name>
+    <servlet-class>servlet.DataTest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>stockview</servlet-name>
+    <servlet-class>servlet.stockview</servlet-class>
+  </servlet>
+
+
+  
+<servlet-mapping>
+    <servlet-name>DataSourceTest</servlet-name>
+    <url-pattern>/servlet/DataSourceTest</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>clientEquipMessage</servlet-name>
+    <url-pattern>/servlet/clientEquipMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>printCorrect</servlet-name>
+    <url-pattern>/servlet/printCorrect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>submitCorrect</servlet-name>
+    <url-pattern>/servlet/submitCorrect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>regist_bx</servlet-name>
+    <url-pattern>/servlet/regist_bx</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changeCEM</servlet-name>
+    <url-pattern>/servlet/changeCEM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lianjie</servlet-name>
+    <url-pattern>/servlet/lianjie</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DataTest</servlet-name>
+    <url-pattern>/servlet/DataTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stockview</servlet-name>
+    <url-pattern>/servlet/stockview</url-pattern>
+  </servlet-mapping>
+
+</web-app>

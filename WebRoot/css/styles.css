@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+.heading
+{
+	width: 1050px auto;
+	height: 50px;
+	background-color:maroon;
+}
+.container
+{
+	width: 1050px auto;
+	height: 500px; 
+	background-color: orange;
+}
+.footing
+{
+	width: 1050px auto;
+	height: 50px;
+	background-color: red;
+}
+
+.left,
+.right,
+.main
+{
+	float: left;
+	height: 500px auto;
+	background-color: green;
+}
+
+.main
+{
+	width:84%;
+	margin-left: 3%;
+	margin-right:3%;
+}
+.left,
+.right
+{
+	width: 10%;
+}
+
+.table 
+{ 
+	border-collapse: collapse; 
+	border: none; 
+	width: 200px; 
+} 
+.td 
+{ 
+	border: solid #000 1px; 
+} 
+

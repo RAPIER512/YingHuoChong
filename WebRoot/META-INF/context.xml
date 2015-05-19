@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+<Resource 
+   name="jdbc/ums"
+   type="javax.sql.DataSource"   
+   driverClassName="oracle.jdbc.driver.OracleDriver"
+   url="jdbc:oracle:thin:@localhost:1521:ORCL" 
+   username="team2"
+   password="yinghuochong"
+   maxActive="20"
+   maxIdle="4"
+   maxWait="300000">
+   
+</Resource>
+
+<WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+
+</Context>
